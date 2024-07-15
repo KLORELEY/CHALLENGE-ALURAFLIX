@@ -1,0 +1,25 @@
+.Cabecera{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.1em 10em;
+    background-color:rgb(127, 127, 127);
+}
+
+a{text-decoration: none;}
+
+.logoContainer {
+    width: 150px; 
+    height: 150px; 
+    position: relative;
+    overflow: hidden; 
+  }
+
+
+.Cabecera img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(2.5); /* Escala la imagen dentro del contenedor */
+    transform-origin: center; 
+  }

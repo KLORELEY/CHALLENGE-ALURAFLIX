@@ -1,0 +1,31 @@
+.Pie{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.1em 10em;
+    background-color:rgb(127, 127, 127);;
+}
+
+a{text-decoration: none;}
+
+.logoContainer {
+    width: 150px; /* Ancho fijo del contenedor */
+    height: 150px; /* Alto fijo del contenedor */
+    position: relative;
+    overflow: hidden; /* Ocultar cualquier desbordamiento */
+  }
+
+  
+.Pie img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(2.5); /* Escala la imagen dentro del contenedor */
+    transform-origin: center; /* Escala la imagen desde el centro */
+  }
+
+.Pie h2 {
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--blanco);
+}

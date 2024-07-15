@@ -1,0 +1,20 @@
+.container {
+  margin-bottom: 40px;
+}
+  
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+
+}
+
+
+
+
+.categoryTitle {
+  font-size: 40px; 
+  font-weight: bold; 
+  text-align:center; 
+  margin-bottom: 16px; 
+}
