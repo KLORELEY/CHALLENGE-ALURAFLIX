@@ -1,0 +1,20 @@
+
+
+
+:root{
+  --font:"Shadows Into Ligth";
+ 
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url('./components/Card/fondo.png') no-repeat center center; 
+  background-size: cover;
+}
+
+
+
+
