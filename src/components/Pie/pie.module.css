@@ -1,0 +1,81 @@
+.Pie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.1em 5%;
+    background-color: rgb(127, 127, 127);
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .logoContainer {
+    width: 100px; 
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  
+  .Pie img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+  }
+  
+  .Pie h2 {
+    font-weight: 500;
+    font-size: 1.25em; 
+    color: black;
+    margin: 0; 
+  }
+  
+ 
+  @media (max-width: 1024px) {
+    .Pie {
+      padding: 1em 4%;
+    }
+  
+    .logoContainer {
+      width: 80px; 
+      height: 80px;
+    }
+  
+    .Pie h2 {
+      font-size: 1em; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .Pie {
+      padding: 1em 3%;
+    }
+  
+    .logoContainer {
+      width: 70px;
+      height: 70px;
+    }
+  
+    .Pie h2 {
+      font-size: 0.9em; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Pie {
+      padding: 0.5em 2%;
+    }
+  
+    .logoContainer {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .Pie h2 {
+      font-size: 0.8em; 
+    }
+  }
+  

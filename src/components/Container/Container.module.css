@@ -1,0 +1,17 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  padding: 1em;
+}
+
+
+@media (min-width: 768px) {
+  .Container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
